@@ -52,3 +52,5 @@ class SimplePage(Page):
         StreamFieldPanel('body'),
         StreamFieldPanel('aside')
     ]
+
+    api_fields = ['title', 'intro', 'date', 'body', 'aside']
